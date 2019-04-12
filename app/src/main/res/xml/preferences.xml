@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_text_size"
+        android:title="Text Size"
+        android:summary="Text Size"
+        android:defaultValue="14sp"
+        android:entries="@array/text_size"
+        android:entryValues="@array/text_size_value"
+        />
+
+    <ListPreference
+        android:key="pref_color_mode"
+        android:title="Color Mode"
+        android:summary="Change color mode"
+        android:defaultValue="#000000"
+        android:entries="@array/color_mode"
+        android:entryValues="@array/color_mode_value"
+        />
+
+</PreferenceScreen>
